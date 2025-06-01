@@ -1,15 +1,19 @@
-# Ignore Visual Studio generated files
+# Ignore Visual Studio files
 .vs/
 *.vcxproj*
 *.sln
 *.user
-*.obj
-*.exe
-*.pdb
-*.ilk
+
+# CMake generated files
 build/
 out/
 CMakeFiles/
 CMakeCache.txt
 cmake_install.cmake
 Makefile
+
+# Executables & intermediates
+*.obj
+*.exe
+*.pdb
+*.ilk
