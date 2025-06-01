@@ -7,7 +7,6 @@
 *.exe
 *.pdb
 *.ilk
-external/
 build/
 out/
 CMakeFiles/
